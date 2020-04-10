@@ -1,0 +1,26 @@
+{
+  "name": "js-testing",
+  "version": "1.0.0",
+  "description": "This project is a set of functions with their corresponding test. Tests are written with Jest.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/santiago-rodrig/js-testing.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/santiago-rodrig/js-testing/issues"
+  },
+  "homepage": "https://github.com/santiago-rodrig/js-testing#readme",
+  "devDependencies": {
+    "@babel/core": "^7.9.0",
+    "@babel/preset-env": "^7.9.5",
+    "babel-jest": "^25.3.0",
+    "jest": "^25.3.0"
+  }
+}

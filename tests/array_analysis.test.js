@@ -1,4 +1,5 @@
 import arrayAnalysis from '../src/array_analysis';
+
 it('gets the minimum number in the collection', () => {
   expect(arrayAnalysis([1, 2, 3]).min).toBe(1);
   expect(arrayAnalysis([-23, 100, 1453]).min).toBe(-23);

@@ -21,6 +21,9 @@
     "@babel/core": "^7.9.0",
     "@babel/preset-env": "^7.9.5",
     "babel-jest": "^25.3.0",
+    "eslint": "^7.0.0",
+    "eslint-config-airbnb-base": "^14.1.0",
+    "eslint-plugin-import": "^2.20.2",
     "jest": "^25.3.0"
   }
 }

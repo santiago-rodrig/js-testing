@@ -5,4 +5,4 @@ export default function arrayAnalysis(array) {
     average: array.reduce((a, b) => a + b) / array.length,
     length: array.length,
   };
-};
+}

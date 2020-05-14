@@ -1,19 +1,24 @@
-class Calculator {
-  add() {
-    return Object.values(arguments).reduce((a, b) => a + b);
+export default (() => {
+  function add(...args) {
+    return args.reduce((a, b) => a + b);
   }
 
-  subtract() {
-    return Object.values(arguments).reduce((a, b) => a - b);
+  function subtract(...args) {
+    return args.reduce((a, b) => a - b);
   }
 
-  divide() {
-    return Object.values(arguments).reduce((a, b) => a / b);
+  function divide(...args) {
+    return args.reduce((a, b) => a / b);
   }
 
-  multiply() {
-    return Object.values(arguments).reduce((a, b) => a * b);
+  function multiply(...args) {
+    return args.reduce((a, b) => a * b);
   }
-}
 
-export default Calculator;
+  return {
+    add,
+    subtract,
+    multiply,
+    divide,
+  };
+})();

@@ -1,4 +1,5 @@
 import caesar from '../src/caesar';
+
 it('ciphers 1 lowercase letter', () => {
   expect(caesar('a', 1)).toBe('b');
   expect(caesar('z', 2)).toBe('b');

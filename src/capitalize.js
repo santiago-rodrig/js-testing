@@ -14,6 +14,6 @@ const capitalize = (str) => {
   });
 
   return result;
-}
+};
 
 export default capitalize;

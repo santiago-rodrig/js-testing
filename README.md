@@ -32,7 +32,7 @@ This application was developed by
 
 ## Contact
 
-You can reach me out at the following URLs
+You can reach me out at the following URLs.
 
 - [Github](https://github.com/santiago-rodrig)
 - [LinkedIn](https://www.linkedin.com/in/santiago-andres-rodriguez-marquez)

@@ -7,11 +7,11 @@ applications.
 
 Everything under the `src` folder.
 
-- `array&#95;analysis.js`
+- `array_analysis.js`
 - `caesar.js`
 - `calculator.js`
 - `capitalize.js`
-- `reverse&#95;string.js`
+- `reverse_string.js`
 
 ## How to run the tests?
 
